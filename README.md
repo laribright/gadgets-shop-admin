@@ -10,7 +10,6 @@ Before starting, ensure you have the following installed:
 
 - Node.js (v14 or later)
 - npm
-- Expo CLI (for React Native)
 - Git
 
 ## Getting Started
