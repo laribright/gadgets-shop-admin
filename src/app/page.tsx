@@ -122,7 +122,7 @@ export default function Home() {
                   rotateX: isHovered ? rotate.rotateX : 0,
                   rotateY: isHovered ? rotate.rotateY : 0,
                 }}
-                transition={{ type: 'string', stiffness: 400, damping: 15 }}
+                transition={{ type: 'spring', stiffness: 400, damping: 15 }}
                 onMouseMove={handleMouseMove}
                 onHoverStart={() => setIsHovered(true)}
                 onHoverEnd={() => setIsHovered(false)}
