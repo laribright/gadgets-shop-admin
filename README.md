@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack Mobile and Web App with React Native, Supabase, and Next.js
+
+Welcome to the Fullstack Mobile and Web App Course! In this project, you'll learn how to build a mobile e-commerce app using React Native and Supabase, along with an admin panel built with Next.js.
+
+This README will guide you through setting up the project, running the mobile and web applications, and exploring the course content.
+
+## Prerequisites
+
+Before starting, ensure you have the following installed:
+
+- Node.js (v14 or later)
+- npm
+- Expo CLI (for React Native)
+- Git
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project:
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/laribright/gadgets-shop-admin.git
+cd gadgets-shop-admin
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install Dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Set Up Environment Variables:**
 
-## Learn More
+   - Rename the `.env.example` file to `.env.local` and fill in the required environment variables.
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   mv .env.example .env.local
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Run the Development Server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+   Your app should now be running on [http://localhost:3000](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Environment Variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Make sure to properly configure your environment variables by referring to the `.env.example` file. This file contains example values and instructions on what needs to be filled in.
+
+## Course Video
+
+Watch the full course on YouTube: [Fullstack Gadgets App: React Native Expo & NextJs Admin](https://youtu.be/26opRFPU0a8)
